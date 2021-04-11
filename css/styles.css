@@ -1,0 +1,245 @@
+.container
+{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.card-body .row .col-lg-3
+{
+    margin-left: 50px;
+}
+
+
+
+  .container .card .card-body #contact
+  {
+      position: absolute;
+      top: 1010px;
+      left: 300px;
+  }
+
+  
+.container .card .card-body #number{
+  position: absolute;
+  top:940px;
+  left: 135px;
+}
+
+  #contact a
+  { 
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(78, 78, 78);
+  }
+
+  #contact a:hover
+  { 
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+  }
+
+  #number a
+  {
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(78, 78, 78);
+  }
+
+  #number a:hover
+  {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+  }
+
+
+
+  .title
+  {
+    font-size: 1.9rem;
+  }
+
+  .linker
+  {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .linker:hover
+  {
+
+    color: rgb(68, 67, 67);
+  }
+
+  .fa
+  {
+    background: #fff;
+    padding:10px;
+    border-radius: 100%;
+    color: #000;
+  }
+
+  .fa:hover
+  {
+    background: #000;
+    padding:10px;
+    border-radius: 100%;
+    color: #fff;
+  }
+
+
+  .fa-phone{
+    color: #000;
+  }
+
+  .social-media
+  {
+    position: absolute;
+    top: 1010px;
+    left: 110px;
+    display: flex;
+  }
+
+  .social-media .fa-facebook
+  {
+    margin-right: 10px;
+    width: 30px;
+  }
+
+  .social-media .fa-instagram
+  {
+    margin-right: 10px;
+  }
+
+  
+  
+
+
+
+  
+@media only screen and (max-width: 1400px) {
+  .container .card .card-body #contact
+  {
+      position: absolute;
+      top: 1010px;
+      left: 300px;
+  }
+
+  .container .card .card-body #number{
+    position: absolute;
+    top:1020px;
+    left: 820px;
+  }
+
+  .social-media
+  {
+    position: absolute;
+    top: 1010px;
+    left: 110px;
+    display: flex;
+  }
+
+    
+
+}
+
+
+
+@media only screen and (max-width: 1200px) {
+  .container .card .card-body #contact
+  {
+      position: absolute;
+      top: 850px;
+      left: 200px;
+  }
+
+  .container .card .card-body #number{
+    position: absolute;
+    top:850px;
+    left: 700px;
+  }
+
+
+  #contact a
+  { 
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+  }
+
+  #number a
+  {
+
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+  }
+
+
+  .title
+  {
+    font-size: 1.3rem;
+  }
+
+  .social-media
+  {
+    position: absolute;
+    top: 850px;
+    left: 70px;
+    display: flex;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .container .card .card-body #contact
+  {
+      position: absolute;
+      top:630px;
+    left: 170px;
+  }
+
+  .container .card .card-body #number{
+    position: absolute;
+    top:630px;
+    left: 520px;
+  }
+
+
+  #contact a
+  { 
+    font-size: 0.8rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+  }
+
+  #number a
+  {
+
+    font-size: 0.8rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+  }
+
+
+  .title
+  {
+    font-size: 0.9rem;
+  }
+
+  
+  .social-media
+  {
+    position: absolute;
+    top: 620px;
+    left: 40px;
+    display: flex;
+  }
+
+  
+
+}
